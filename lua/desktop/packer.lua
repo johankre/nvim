@@ -56,10 +56,6 @@ return require('packer').startup(function(use)
       "iamcco/markdown-preview.nvim",
       run = function() vim.fn["mkdp#util#install"]() end,
   })
-<<<<<<< HEAD
-  use('ray-x/go.nvim')
-=======
   use("theprimeagen/harpoon")
->>>>>>> 2805028b5f5faab3d02a77b8f667cee85d2f3403
 
   end)
